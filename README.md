@@ -1,13 +1,19 @@
 # Dashboard Microservice
 
-This is the Java implementation of the Acquisition Microservice of [Immunizer: The Collaborative Cloud-based Unsupervised Software Immunity Framework](https://github.com/oiraqi/immunizer). It leverages distributed and parallel processing thanks to cluster-computing frameworks, such as Apache Spark and Google DataFlow, abstracted and unified through Apache Beam.
+This is the Java implementation of the Dashboard Microservice of [Immunizer: The Collaborative Cloud-based Unsupervised Software Immunity Framework](https://github.com/oiraqi/immunizer).
 
 ## Siblings
-- [Monitoring Microagent](https://github.com/oiraqi/immunizer-monitoring)
-- [Acquisition Microservice](https://github.com/oiraqi/immunizer-acquisition)
-- [Analysis Microservice](https://github.com/oiraqi/immunizer-analysis)
-- [Collaboration Microservice](https://github.com/oiraqi/immunizer-collaboration)
-- [Response Microagent](https://github.com/oiraqi/immunizer-response)
+### Autonomic Protection Microagents
+- [Sensor Microagent](https://github.com/oiraqi/immunizer-sensor)
+- [Effector Microagent](https://github.com/oiraqi/immunizer-effector)
+### Autonomic Protection Microservices
+- [Monitoring Microservice](https://github.com/oiraqi/immunizer-monitor)
+- [Analysis Microservice](https://github.com/oiraqi/immunizer-analyze)
+- [Planning Microservice](https://github.com/oiraqi/immunizer-plan)
+- [Execution Microservice](https://github.com/oiraqi/immunizer-execute)
+- [Collaboration Microservice](https://github.com/oiraqi/immunizer-collaborate)
+- [Dashboard Microservice](https://github.com/oiraqi/immunizer-dashboard)
+
 
 ## Dependencies
 
@@ -27,4 +33,3 @@ All dependencies are managed through Gradle.
 
 ## Publications
 - Please refer to the parent project [Publications](https://github.com/oiraqi/immunizer#publications)
-
